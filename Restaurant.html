@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Glenary's Restaurant</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f8f8;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+    h2 {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .menu {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin: 20px;
+    }
+    .dish {
+      background: white;
+      padding: 15px;
+      width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+    .dish img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .dish h3 {
+      margin: 10px 0;
+      color: #333;
+    }
+    .dish-p {
+      font-size: 14px;
+      color: #555;
+    }
+    .price {
+      font-weight: bold;
+      color: green;
+    }
+    .video {
+      text-align: center;
+      margin: 30px 0;
+    }
+    iframe {
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Glenary's Restaurant</h1>
+  </header>
+
+  <h2>Menu</h2>
+  <div class="menu">
+    <div class="dish">
+      <img src="https://www.dominos.co.in/files/items/Pizza_Supreme.jpg" alt="Pizza Supreme">
+      <h3>Pizza Supreme</h3>
+      <p class="dish-p">Pizza sauce, mozzarella, bacon, onion, beef mince, capsicum, pepperoni, mushrooms, olives</p>
+      <p class="price">Price: ₹500</p>
+    </div>
+
+    <div class="dish">
+      <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2022/07/paneer-tikka-500x500.jpg" alt="Paneer Tikka">
+      <h3>Paneer Tikka</h3>
+      <p class="dish-p">Paneer, Yogurt, Ground Spices, Bell Peppers, Onions, Baby Corn, Mushrooms</p>
+      <p class="price">Price: ₹350</p>
+    </div>
+  </div>
+
+  <div class="video">
+    <h2>Watch How It's Made</h2>
+        <iframe width="943" height="284" 
+            src="https://www.youtube.com/embed/KvQe3b0jYsk" 
+            title="Paneer Tikka Recipe | How To Make Paneer Tikka On Tawa | The Bombay Chef – Varun Inamdar" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+        </iframe>
+    </div>  
+
+</body>
+</html>
